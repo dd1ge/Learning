@@ -37,4 +37,8 @@
   git diff
   ```
 
-  
+- 版本回退![image-20210403212935279](C:\Users\胡鉴\AppData\Roaming\Typora\typora-user-images\image-20210403212935279.png)
+
+
+
+- 工作区与暂存区![git-repo](https://www.liaoxuefeng.com/files/attachments/919020037470528/0)
