@@ -39,19 +39,19 @@
 
 - 版本回退
 
-  ![image-20210403212935279](.\img\版本回退.png)
+  ![Imgur](imgs/版本回退.png)
 
 
 
 - 工作区与暂存区
 
-  ![](.\img\工作区与暂存区.jpg)
+  ![Imgur](imgs/工作区与暂存区.jpg)
 
 
 
 - 撤销修改
 
-  <img src=".\img\撤销修改.png" alt="image-20210403215346894" style="zoom:150%;" />
+  <img src="imgs/撤销修改.png" alt="image-20210403215346894" style="zoom:150%;" />
 
 
 
@@ -65,4 +65,4 @@
 
 - 添加远程仓库
 
-![](.\img\添加远程仓库.jpg)
+![Imgur](imgs/添加远程仓库.jpg)
