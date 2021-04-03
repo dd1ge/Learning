@@ -73,4 +73,4 @@ git rm file #此为从git版本库里将文件删除，删除后还需要提交
 
 #### 创建与合并分支
 
-![Imgur](.\imgs\创建与合并分支.png)
+![Imgur](imgs/创建与合并分支.png)
