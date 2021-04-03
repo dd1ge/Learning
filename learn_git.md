@@ -42,3 +42,10 @@
 
 
 - 工作区与暂存区![git-repo](https://www.liaoxuefeng.com/files/attachments/919020037470528/0)
+
+
+
+- 撤销修改<img src="C:\Users\胡鉴\AppData\Roaming\Typora\typora-user-images\image-20210403215346894.png" alt="image-20210403215346894" style="zoom:150%;" />
+
+
+
