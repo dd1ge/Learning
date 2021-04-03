@@ -37,15 +37,32 @@
   git diff
   ```
 
-- 版本回退![image-20210403212935279](C:\Users\胡鉴\AppData\Roaming\Typora\typora-user-images\image-20210403212935279.png)
+- 版本回退
+
+  ![image-20210403212935279](.\img\版本回退.png)
 
 
 
-- 工作区与暂存区![git-repo](https://www.liaoxuefeng.com/files/attachments/919020037470528/0)
+- 工作区与暂存区
+
+  ![](.\img\工作区与暂存区.jpg)
 
 
 
-- 撤销修改<img src="C:\Users\胡鉴\AppData\Roaming\Typora\typora-user-images\image-20210403215346894.png" alt="image-20210403215346894" style="zoom:150%;" />
+- 撤销修改
+
+  <img src=".\img\撤销修改.png" alt="image-20210403215346894" style="zoom:150%;" />
 
 
 
+- 删除文件
+
+  ```bash
+  git rm file #此为从git版本库里将文件删除，删除后还需要提交
+  ```
+
+### 远程仓库
+
+- 添加远程仓库
+
+![](.\img\添加远程仓库.jpg)
