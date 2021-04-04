@@ -1,5 +1,9 @@
 # git用法学习
 
+[toc]
+
+
+
 ### 创建版本库，添加、提交文件
 
 #### 创建版本库 
@@ -137,3 +141,39 @@ git rm file #此为从git版本库里将文件删除，删除后还需要提交
 #### 操作标签
 
 ![](imgs/操作标签.png)
+
+### 自定义git
+
+#### 忽略特殊文件
+
+```bash
+#排除所有.开头的隐藏文件
+.*
+# 排除所有.class文件:
+*.class
+
+# 不排除.gitignore和App.class:
+!.gitignore
+!App.class
+```
+
+- 忽略某些文件时， 需要编写`.gitignore`
+- `.gitignore`文件本身需要放到版本库里，并且可以对其进行版本管理
+
+#### 配置别名
+
+```bash
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.last 'log -1'
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+
+- 配置Git的时候，加上`--gobal`是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用。
+- 每个仓库自己的配置文件位于当前仓库的.git/config中
+- 当前用户的Git配置文件放在用户主目录下的一个隐藏文件`.gitconfig`中
+
+**==OK, finish! :smile:==**
+
