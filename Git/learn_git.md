@@ -175,5 +175,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 - 每个仓库自己的配置文件位于当前仓库的.git/config中
 - 当前用户的Git配置文件放在用户主目录下的一个隐藏文件`.gitconfig`中
 
-**==OK, finish! :smile:==**
+***OK, finished***:smiley_cat:
 

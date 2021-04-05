@@ -194,7 +194,7 @@ docker run -d -p 80 --restart always nginx
 docker run -d -p 80 --restart unless-stopped nginx
 ```
 
-### 监控、磁盘空间回收
+#### 监控、磁盘空间回收
 
 ```bash
 docker stats #列出运行的容器占用的资源信息
